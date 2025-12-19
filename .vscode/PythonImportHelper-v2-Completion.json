@@ -1,0 +1,283 @@
+[
+    {
+        "label": "Principal",
+        "importPath": "finance.principal",
+        "description": "finance.principal",
+        "isExtraImport": true,
+        "detail": "finance.principal",
+        "documentation": {}
+    },
+    {
+        "label": "Rate",
+        "importPath": "finance.rate",
+        "description": "finance.rate",
+        "isExtraImport": true,
+        "detail": "finance.rate",
+        "documentation": {}
+    },
+    {
+        "label": "Time",
+        "importPath": "finance.time",
+        "description": "finance.time",
+        "isExtraImport": true,
+        "detail": "finance.time",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_simple_interest",
+        "importPath": "finance.interest",
+        "description": "finance.interest",
+        "isExtraImport": true,
+        "detail": "finance.interest",
+        "documentation": {}
+    },
+    {
+        "label": "can",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "can",
+        "description": "can",
+        "detail": "can",
+        "documentation": {}
+    },
+    {
+        "label": "builtin",
+        "importPath": "Python",
+        "description": "Python",
+        "isExtraImport": true,
+        "detail": "Python",
+        "documentation": {}
+    },
+    {
+        "label": "builtin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "builtin",
+        "description": "builtin",
+        "detail": "builtin",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_simple_interest",
+        "kind": 2,
+        "importPath": "simple_interest_system.finance.interest",
+        "description": "simple_interest_system.finance.interest",
+        "peekOfCode": "def calculate_simple_interest(p, r, t):\n    return (p * r * t) / 100",
+        "detail": "simple_interest_system.finance.interest",
+        "documentation": {}
+    },
+    {
+        "label": "Principal",
+        "kind": 6,
+        "importPath": "simple_interest_system.finance.principal",
+        "description": "simple_interest_system.finance.principal",
+        "peekOfCode": "class Principal:\n    def __init__(self, amount):\n        self.amount = amount",
+        "detail": "simple_interest_system.finance.principal",
+        "documentation": {}
+    },
+    {
+        "label": "Rate",
+        "kind": 6,
+        "importPath": "simple_interest_system.finance.rate",
+        "description": "simple_interest_system.finance.rate",
+        "peekOfCode": "class Rate:\n    def __init__(self, rate):\n        self.rate = rate",
+        "detail": "simple_interest_system.finance.rate",
+        "documentation": {}
+    },
+    {
+        "label": "Time",
+        "kind": 6,
+        "importPath": "simple_interest_system.finance.time",
+        "description": "simple_interest_system.finance.time",
+        "peekOfCode": "class Time:\n    def __init__(self, time):\n        self.time = time",
+        "detail": "simple_interest_system.finance.time",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "simple_interest_system.main",
+        "description": "simple_interest_system.main",
+        "peekOfCode": "p = Principal(10000)\nr = Rate(5)\nt = Time(2)\nsi = calculate_simple_interest(p.amount, r.rate, t.time)\nprint(\"Simple Interest:\", si)",
+        "detail": "simple_interest_system.main",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "simple_interest_system.main",
+        "description": "simple_interest_system.main",
+        "peekOfCode": "r = Rate(5)\nt = Time(2)\nsi = calculate_simple_interest(p.amount, r.rate, t.time)\nprint(\"Simple Interest:\", si)",
+        "detail": "simple_interest_system.main",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "simple_interest_system.main",
+        "description": "simple_interest_system.main",
+        "peekOfCode": "t = Time(2)\nsi = calculate_simple_interest(p.amount, r.rate, t.time)\nprint(\"Simple Interest:\", si)",
+        "detail": "simple_interest_system.main",
+        "documentation": {}
+    },
+    {
+        "label": "si",
+        "kind": 5,
+        "importPath": "simple_interest_system.main",
+        "description": "simple_interest_system.main",
+        "peekOfCode": "si = calculate_simple_interest(p.amount, r.rate, t.time)\nprint(\"Simple Interest:\", si)",
+        "detail": "simple_interest_system.main",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\nif num % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "add two num",
+        "description": "add two num",
+        "peekOfCode": "a = 10 \nb = 20\nprint(\"sum = \", a + b)",
+        "detail": "add two num",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "add two num",
+        "description": "add two num",
+        "peekOfCode": "b = 20\nprint(\"sum = \", a + b)",
+        "detail": "add two num",
+        "documentation": {}
+    },
+    {
+        "label": "print(\"sum",
+        "kind": 5,
+        "importPath": "add two num",
+        "description": "add two num",
+        "peekOfCode": "print(\"sum = \", a + b)",
+        "detail": "add two num",
+        "documentation": {}
+    },
+    {
+        "label": "builtin",
+        "kind": 2,
+        "importPath": "builtin",
+        "description": "builtin",
+        "peekOfCode": "def builtin():\n#parent module\n# x = range(5)\n    for n in x:\n        print(n)\n#range starts from 0 to range -1\nmylist = [\"a\", \"b\", \"c\"]\nx = len(mylist)\ny=type(mylist)\n#strip",
+        "detail": "builtin",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "builtin",
+        "description": "builtin",
+        "peekOfCode": "mylist = [\"a\", \"b\", \"c\"]\nx = len(mylist)\ny=type(mylist)\n#strip\ntxt=\" banana \"\nx=txt.strip()\nprint(x)\n#str\ny=str(3.5)\nprint(y)",
+        "detail": "builtin",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "builtin",
+        "description": "builtin",
+        "peekOfCode": "x = len(mylist)\ny=type(mylist)\n#strip\ntxt=\" banana \"\nx=txt.strip()\nprint(x)\n#str\ny=str(3.5)\nprint(y)\n#using 2 numeric values --> a,b",
+        "detail": "builtin",
+        "documentation": {}
+    },
+    {
+        "label": "#2*2",
+        "kind": 5,
+        "importPath": "builtin",
+        "description": "builtin",
+        "peekOfCode": "#2*2 = 2+2\n#3*3 = 3+3+3",
+        "detail": "builtin",
+        "documentation": {}
+    },
+    {
+        "label": "#3*3",
+        "kind": 5,
+        "importPath": "builtin",
+        "description": "builtin",
+        "peekOfCode": "#3*3 = 3+3+3",
+        "detail": "builtin",
+        "documentation": {}
+    },
+    {
+        "label": "network",
+        "kind": 5,
+        "importPath": "canimpl",
+        "description": "canimpl",
+        "peekOfCode": "network = can.interface.Bus(bustype=\"bmw\", channel=\"jio\")\n'''opencv-python --> a car classifier file package that store the info inside the xml file -->\ncarcascade.xml\nhaarcascade.xml'''",
+        "detail": "canimpl",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "larger number from 2 num",
+        "description": "larger number from 2 num",
+        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nif a > b:\n    print(\"a is larger\")\nelse:\n    print(\"b is larger\")",
+        "detail": "larger number from 2 num",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "larger number from 2 num",
+        "description": "larger number from 2 num",
+        "peekOfCode": "b = int(input(\"Enter second number: \"))\nif a > b:\n    print(\"a is larger\")\nelse:\n    print(\"b is larger\")",
+        "detail": "larger number from 2 num",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "reuse",
+        "description": "reuse",
+        "peekOfCode": "response = requests.get(\"https://google.com\")\nresponse.status_code  # prints the status code of the response",
+        "detail": "reuse",
+        "documentation": {}
+    }
+]
