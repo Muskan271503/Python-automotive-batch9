@@ -1,5 +1,189 @@
 [
     {
+        "label": "anomaly",
+        "importPath": "river",
+        "description": "river",
+        "isExtraImport": true,
+        "detail": "river",
+        "documentation": {}
+    },
+    {
+        "label": "preprocessing",
+        "importPath": "river",
+        "description": "river",
+        "isExtraImport": true,
+        "detail": "river",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "FraudDetector",
+        "importPath": "fraud_model",
+        "description": "fraud_model",
+        "isExtraImport": true,
+        "detail": "fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "FraudDetector",
+        "importPath": "fraud_model",
+        "description": "fraud_model",
+        "isExtraImport": true,
+        "detail": "fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "importPath": "getpass",
+        "description": "getpass",
+        "isExtraImport": true,
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "SecureLoginSystem",
+        "importPath": "login",
+        "description": "login",
+        "isExtraImport": true,
+        "detail": "login",
+        "documentation": {}
+    },
+    {
+        "label": "main_gate",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "main_gate",
+        "description": "main_gate",
+        "detail": "main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "get_medical_issues",
+        "importPath": "medical_issues",
+        "description": "medical_issues",
+        "isExtraImport": true,
+        "detail": "medical_issues",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "importPath": "recommendation_engine",
+        "description": "recommendation_engine",
+        "isExtraImport": true,
+        "detail": "recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "user_item_matrix",
+        "importPath": "recommendation_engine",
+        "description": "recommendation_engine",
+        "isExtraImport": true,
+        "detail": "recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "recommend_products",
+        "importPath": "recommendation_engine",
+        "description": "recommendation_engine",
+        "isExtraImport": true,
+        "detail": "recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "recommend_similar_products",
+        "importPath": "recommendation_engine",
+        "description": "recommendation_engine",
+        "isExtraImport": true,
+        "detail": "recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "hybrid_recommendation",
+        "importPath": "recommendation_engine",
+        "description": "recommendation_engine",
+        "isExtraImport": true,
+        "detail": "recommendation_engine",
+        "documentation": {}
+    },
+    {
         "label": "Principal",
         "importPath": "finance.principal",
         "description": "finance.principal",
@@ -74,21 +258,507 @@
         "documentation": {}
     },
     {
-        "label": "random",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
-        "documentation": {}
-    },
-    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "requests",
         "description": "requests",
         "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "FraudDetector",
+        "kind": 6,
+        "importPath": "Project.fraud detection.fraud_model",
+        "description": "Project.fraud detection.fraud_model",
+        "peekOfCode": "class FraudDetector:\n    def __init__(self, threshold=0.7):\n        self.threshold = threshold\n        scaler = preprocessing.StandardScaler()\n        model = anomaly.HalfSpaceTrees(\n            n_trees=25,\n            height=10,\n            window_size=250,\n            seed=42\n        )",
+        "detail": "Project.fraud detection.fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 2,
+        "importPath": "Project.fraud detection.test_fraud_model",
+        "description": "Project.fraud detection.test_fraud_model",
+        "peekOfCode": "def detector():\n    return FraudDetector(threshold=0.5)\n@pytest.fixture\ndef normal_transaction():\n    return {\n        \"amount\": 100,\n        \"hour\": 10,\n        \"location_change\": 0,\n        \"txn_frequency\": 2\n    }",
+        "detail": "Project.fraud detection.test_fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "normal_transaction",
+        "kind": 2,
+        "importPath": "Project.fraud detection.test_fraud_model",
+        "description": "Project.fraud detection.test_fraud_model",
+        "peekOfCode": "def normal_transaction():\n    return {\n        \"amount\": 100,\n        \"hour\": 10,\n        \"location_change\": 0,\n        \"txn_frequency\": 2\n    }\n@pytest.fixture\ndef suspicious_transaction():\n    return {",
+        "detail": "Project.fraud detection.test_fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "suspicious_transaction",
+        "kind": 2,
+        "importPath": "Project.fraud detection.test_fraud_model",
+        "description": "Project.fraud detection.test_fraud_model",
+        "peekOfCode": "def suspicious_transaction():\n    return {\n        \"amount\": 10000,\n        \"hour\": 2,\n        \"location_change\": 1,\n        \"txn_frequency\": 15\n    }\ndef test_score_returns_float(detector, normal_transaction):\n    score = detector.score_transaction(normal_transaction)\n    assert isinstance(score, float)",
+        "detail": "Project.fraud detection.test_fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_score_returns_float",
+        "kind": 2,
+        "importPath": "Project.fraud detection.test_fraud_model",
+        "description": "Project.fraud detection.test_fraud_model",
+        "peekOfCode": "def test_score_returns_float(detector, normal_transaction):\n    score = detector.score_transaction(normal_transaction)\n    assert isinstance(score, float)\ndef test_fraud_detection_returns_boolean(detector, suspicious_transaction):\n    result = detector.is_fraud(suspicious_transaction)\n    assert isinstance(result, bool)\ndef test_model_learns_without_error(detector, normal_transaction):\n    detector.learn(normal_transaction)\n    score_after_learning = detector.score_transaction(normal_transaction)\n    assert isinstance(score_after_learning, float)",
+        "detail": "Project.fraud detection.test_fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_fraud_detection_returns_boolean",
+        "kind": 2,
+        "importPath": "Project.fraud detection.test_fraud_model",
+        "description": "Project.fraud detection.test_fraud_model",
+        "peekOfCode": "def test_fraud_detection_returns_boolean(detector, suspicious_transaction):\n    result = detector.is_fraud(suspicious_transaction)\n    assert isinstance(result, bool)\ndef test_model_learns_without_error(detector, normal_transaction):\n    detector.learn(normal_transaction)\n    score_after_learning = detector.score_transaction(normal_transaction)\n    assert isinstance(score_after_learning, float)\ndef test_invalid_transaction_type(detector):\n    with pytest.raises(TypeError):\n        detector.score_transaction([\"invalid\", \"data\"])",
+        "detail": "Project.fraud detection.test_fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_model_learns_without_error",
+        "kind": 2,
+        "importPath": "Project.fraud detection.test_fraud_model",
+        "description": "Project.fraud detection.test_fraud_model",
+        "peekOfCode": "def test_model_learns_without_error(detector, normal_transaction):\n    detector.learn(normal_transaction)\n    score_after_learning = detector.score_transaction(normal_transaction)\n    assert isinstance(score_after_learning, float)\ndef test_invalid_transaction_type(detector):\n    with pytest.raises(TypeError):\n        detector.score_transaction([\"invalid\", \"data\"])",
+        "detail": "Project.fraud detection.test_fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_invalid_transaction_type",
+        "kind": 2,
+        "importPath": "Project.fraud detection.test_fraud_model",
+        "description": "Project.fraud detection.test_fraud_model",
+        "peekOfCode": "def test_invalid_transaction_type(detector):\n    with pytest.raises(TypeError):\n        detector.score_transaction([\"invalid\", \"data\"])",
+        "detail": "Project.fraud detection.test_fraud_model",
+        "documentation": {}
+    },
+    {
+        "label": "generate_transaction",
+        "kind": 2,
+        "importPath": "Project.fraud detection.transaction_stream",
+        "description": "Project.fraud detection.transaction_stream",
+        "peekOfCode": "def generate_transaction():\n    return {\n        \"amount\": random.choice([50, 100, 200, 500, 10000]),\n        \"hour\": random.randint(0, 23),\n        \"location_change\": random.choice([0, 1]),\n        \"txn_frequency\": random.randint(1, 20)\n    }\nif __name__ == \"__main__\":\n    detector = FraudDetector()\n    print(\"\\n--- Real-Time Fraud Detection Started ---\\n\")",
+        "detail": "Project.fraud detection.transaction_stream",
+        "documentation": {}
+    },
+    {
+        "label": "SecureLoginSystem",
+        "kind": 6,
+        "importPath": "Project.login",
+        "description": "Project.login",
+        "peekOfCode": "class SecureLoginSystem:\n    def __init__(self, max_attempts=3, lock_duration=60):\n        # username -> (hashed_password, is_locked, lock_until, failed_attempts)\n        self.users = {\n            'user1': (self._hash_password('password123'), False, 0, 0),\n            'admin': (self._hash_password('secretadmin'), False, 0, 0)\n        }\n        self.max_attempts = max_attempts\n        self.lock_duration = lock_duration\n    def _hash_password(self, password: str) -> str:",
+        "detail": "Project.login",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricGate",
+        "kind": 6,
+        "importPath": "Project.main_gate",
+        "description": "Project.main_gate",
+        "peekOfCode": "class ElectricGate:\n    def __init__(self):\n        self.is_open = False\n        self.is_locked = True\n        self.power_on = True\n        self.obstacle = False\n    def unlock_gate(self):\n        self.is_locked = False\n    def open_gate_remote(self):\n        if self.power_on and not self.is_locked:",
+        "detail": "Project.main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "get_medical_issues",
+        "kind": 2,
+        "importPath": "Project.medical_issues",
+        "description": "Project.medical_issues",
+        "peekOfCode": "def get_medical_issues(xml_file):\n    tree = ET.parse(xml_file)\n    root = tree.getroot()\n    issues = []\n    for issue in root.findall(\"issue\"):\n        if issue.text:\n            issues.append(issue.text.strip())\n    issues.sort()\n    return issues",
+        "detail": "Project.medical_issues",
+        "documentation": {}
+    },
+    {
+        "label": "recommend_products",
+        "kind": 2,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "def recommend_products(user_id, top_n=3):\n    if user_id not in user_item_matrix.index:\n        return \"New user – use content-based or trending products\"\n    user_scores = user_item_matrix.loc[user_id]\n    interacted_products = user_scores[user_scores > 0].index\n    scores = pd.Series(dtype=float)\n    for product in interacted_products:\n        scores = scores.add(item_similarity_df[product], fill_value=0)\n    scores = scores.drop(interacted_products, errors=\"ignore\")\n    return scores.sort_values(ascending=False).head(top_n)",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "recommend_similar_products",
+        "kind": 2,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "def recommend_similar_products(product_id, top_n=2):\n    if product_id not in products[\"product_id\"].values:\n        return []\n    idx = products[products[\"product_id\"] == product_id].index[0]\n    similarity_scores = list(enumerate(product_similarity[idx]))\n    similarity_scores = sorted(similarity_scores, key=lambda x: x[1], reverse=True)\n    similar_products = similarity_scores[1:top_n + 1]\n    return [products.iloc[i[0]][\"product_id\"] for i in similar_products]\n# -------------------------------------------------\n# Step 8: Hybrid Recommendation",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "hybrid_recommendation",
+        "kind": 2,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "def hybrid_recommendation(user_id):\n    if user_id not in user_item_matrix.index:\n        return \"New user – show trending products\"\n    collab_recs = recommend_products(user_id)\n    if isinstance(collab_recs, str):\n        return collab_recs\n    return list(collab_recs.index)\n# -------------------------------------------------\n# Step 9: Show Output When Run Directly\n# -------------------------------------------------",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "data = {\n    \"user_id\": [1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5],\n    \"product_id\": [101, 102, 103, 101, 104, 102, 103, 105, 101, 105, 104],\n    \"action\": [\n        \"view\", \"purchase\", \"click\",\n        \"purchase\", \"view\",\n        \"click\", \"purchase\", \"view\",\n        \"click\", \"purchase\", \"view\"\n    ]\n}",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "df = pd.DataFrame(data)\n# -------------------------------------------------\n# Step 2: Action to Score Mapping\n# -------------------------------------------------\naction_weight = {\n    \"view\": 1,\n    \"click\": 2,\n    \"purchase\": 5\n}\ndf[\"score\"] = df[\"action\"].map(action_weight)",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "action_weight",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "action_weight = {\n    \"view\": 1,\n    \"click\": 2,\n    \"purchase\": 5\n}\ndf[\"score\"] = df[\"action\"].map(action_weight)\n# -------------------------------------------------\n# Step 3: User–Item Interaction Matrix\n# -------------------------------------------------\nuser_item_matrix = df.pivot_table(",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "df[\"score\"]",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "df[\"score\"] = df[\"action\"].map(action_weight)\n# -------------------------------------------------\n# Step 3: User–Item Interaction Matrix\n# -------------------------------------------------\nuser_item_matrix = df.pivot_table(\n    index=\"user_id\",\n    columns=\"product_id\",\n    values=\"score\",\n    aggfunc=\"sum\",\n    fill_value=0",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "user_item_matrix",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "user_item_matrix = df.pivot_table(\n    index=\"user_id\",\n    columns=\"product_id\",\n    values=\"score\",\n    aggfunc=\"sum\",\n    fill_value=0\n)\n# -------------------------------------------------\n# Step 4: Collaborative Filtering (Item-Based)\n# -------------------------------------------------",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "item_similarity",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "item_similarity = cosine_similarity(user_item_matrix.T)\nitem_similarity_df = pd.DataFrame(\n    item_similarity,\n    index=user_item_matrix.columns,\n    columns=user_item_matrix.columns\n)\n# -------------------------------------------------\n# Step 5: Collaborative Recommendation Function\n# -------------------------------------------------\ndef recommend_products(user_id, top_n=3):",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "item_similarity_df",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "item_similarity_df = pd.DataFrame(\n    item_similarity,\n    index=user_item_matrix.columns,\n    columns=user_item_matrix.columns\n)\n# -------------------------------------------------\n# Step 5: Collaborative Recommendation Function\n# -------------------------------------------------\ndef recommend_products(user_id, top_n=3):\n    if user_id not in user_item_matrix.index:",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "products = pd.DataFrame({\n    \"product_id\": [101, 102, 103, 104, 105],\n    \"description\": [\n        \"running sports shoes\",\n        \"casual leather shoes\",\n        \"sports fitness shoes\",\n        \"wireless bluetooth headphones\",\n        \"noise cancelling over ear headphones\"\n    ]\n})",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "vectorizer",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "vectorizer = TfidfVectorizer()\ntfidf_matrix = vectorizer.fit_transform(products[\"description\"])\nproduct_similarity = cosine_similarity(tfidf_matrix)\n# -------------------------------------------------\n# Step 7: Content-Based Recommendation Function\n# -------------------------------------------------\ndef recommend_similar_products(product_id, top_n=2):\n    if product_id not in products[\"product_id\"].values:\n        return []\n    idx = products[products[\"product_id\"] == product_id].index[0]",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "tfidf_matrix",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "tfidf_matrix = vectorizer.fit_transform(products[\"description\"])\nproduct_similarity = cosine_similarity(tfidf_matrix)\n# -------------------------------------------------\n# Step 7: Content-Based Recommendation Function\n# -------------------------------------------------\ndef recommend_similar_products(product_id, top_n=2):\n    if product_id not in products[\"product_id\"].values:\n        return []\n    idx = products[products[\"product_id\"] == product_id].index[0]\n    similarity_scores = list(enumerate(product_similarity[idx]))",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "product_similarity",
+        "kind": 5,
+        "importPath": "Project.recommendation_engine",
+        "description": "Project.recommendation_engine",
+        "peekOfCode": "product_similarity = cosine_similarity(tfidf_matrix)\n# -------------------------------------------------\n# Step 7: Content-Based Recommendation Function\n# -------------------------------------------------\ndef recommend_similar_products(product_id, top_n=2):\n    if product_id not in products[\"product_id\"].values:\n        return []\n    idx = products[products[\"product_id\"] == product_id].index[0]\n    similarity_scores = list(enumerate(product_similarity[idx]))\n    similarity_scores = sorted(similarity_scores, key=lambda x: x[1], reverse=True)",
+        "detail": "Project.recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "login_system",
+        "kind": 2,
+        "importPath": "Project.test_login",
+        "description": "Project.test_login",
+        "peekOfCode": "def login_system():\n    return SecureLoginSystem(max_attempts=3, lock_duration=2)\ndef test_successful_login(login_system):\n    result = login_system.attempt_login(\"user1\", \"password123\")\n    assert result[\"success\"] is True\n    assert result[\"message\"] == \"Login successful!\"\ndef test_invalid_password(login_system):\n    result = login_system.attempt_login(\"user1\", \"wrong\")\n    assert result[\"success\"] is False\n    assert \"Invalid username or password\" in result[\"message\"]",
+        "detail": "Project.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "test_successful_login",
+        "kind": 2,
+        "importPath": "Project.test_login",
+        "description": "Project.test_login",
+        "peekOfCode": "def test_successful_login(login_system):\n    result = login_system.attempt_login(\"user1\", \"password123\")\n    assert result[\"success\"] is True\n    assert result[\"message\"] == \"Login successful!\"\ndef test_invalid_password(login_system):\n    result = login_system.attempt_login(\"user1\", \"wrong\")\n    assert result[\"success\"] is False\n    assert \"Invalid username or password\" in result[\"message\"]\ndef test_nonexistent_user(login_system):\n    result = login_system.attempt_login(\"ghost\", \"pass\")",
+        "detail": "Project.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "test_invalid_password",
+        "kind": 2,
+        "importPath": "Project.test_login",
+        "description": "Project.test_login",
+        "peekOfCode": "def test_invalid_password(login_system):\n    result = login_system.attempt_login(\"user1\", \"wrong\")\n    assert result[\"success\"] is False\n    assert \"Invalid username or password\" in result[\"message\"]\ndef test_nonexistent_user(login_system):\n    result = login_system.attempt_login(\"ghost\", \"pass\")\n    assert result[\"success\"] is False\n    # No crash, generic message returned → test passes\ndef test_empty_input(login_system):\n    result = login_system.attempt_login(\"\", \"password123\")",
+        "detail": "Project.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "test_nonexistent_user",
+        "kind": 2,
+        "importPath": "Project.test_login",
+        "description": "Project.test_login",
+        "peekOfCode": "def test_nonexistent_user(login_system):\n    result = login_system.attempt_login(\"ghost\", \"pass\")\n    assert result[\"success\"] is False\n    # No crash, generic message returned → test passes\ndef test_empty_input(login_system):\n    result = login_system.attempt_login(\"\", \"password123\")\n    assert result[\"success\"] is False\n    assert \"empty\" in result[\"message\"].lower()\ndef test_lock_after_three_failures(login_system):\n    for _ in range(3):",
+        "detail": "Project.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "test_empty_input",
+        "kind": 2,
+        "importPath": "Project.test_login",
+        "description": "Project.test_login",
+        "peekOfCode": "def test_empty_input(login_system):\n    result = login_system.attempt_login(\"\", \"password123\")\n    assert result[\"success\"] is False\n    assert \"empty\" in result[\"message\"].lower()\ndef test_lock_after_three_failures(login_system):\n    for _ in range(3):\n        result = login_system.attempt_login(\"admin\", \"wrong\")\n        assert result[\"success\"] is False\n    result = login_system.attempt_login(\"admin\", \"secretadmin\")\n    assert result[\"success\"] is False",
+        "detail": "Project.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "test_lock_after_three_failures",
+        "kind": 2,
+        "importPath": "Project.test_login",
+        "description": "Project.test_login",
+        "peekOfCode": "def test_lock_after_three_failures(login_system):\n    for _ in range(3):\n        result = login_system.attempt_login(\"admin\", \"wrong\")\n        assert result[\"success\"] is False\n    result = login_system.attempt_login(\"admin\", \"secretadmin\")\n    assert result[\"success\"] is False\n    assert \"locked\" in result[\"message\"].lower()\n    assert login_system.is_account_locked(\"admin\") is True\ndef test_lock_expires(login_system):\n    for _ in range(3):",
+        "detail": "Project.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "test_lock_expires",
+        "kind": 2,
+        "importPath": "Project.test_login",
+        "description": "Project.test_login",
+        "peekOfCode": "def test_lock_expires(login_system):\n    for _ in range(3):\n        login_system.attempt_login(\"user1\", \"wrong\")\n    assert login_system.is_account_locked(\"user1\") is True\n    time.sleep(3)\n    assert login_system.is_account_locked(\"user1\") is False\n    result = login_system.attempt_login(\"user1\", \"password123\")\n    assert result[\"success\"] is True",
+        "detail": "Project.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "test_gate_open_with_valid_remote",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_gate_open_with_valid_remote():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    assert gate.open_gate_remote() == \"Gate opens\"\ndef test_gate_close_using_remote():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    gate.open_gate_remote()\n    assert gate.close_gate_remote() == \"Gate closes\"\ndef test_gate_open_with_wrong_switch():",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_gate_close_using_remote",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_gate_close_using_remote():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    gate.open_gate_remote()\n    assert gate.close_gate_remote() == \"Gate closes\"\ndef test_gate_open_with_wrong_switch():\n    gate = main_gate.ElectricGate()\n    assert gate.open_gate_remote() == \"Gate remains closed\"\ndef test_auto_lock_after_closing():\n    gate = main_gate.ElectricGate()",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_gate_open_with_wrong_switch",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_gate_open_with_wrong_switch():\n    gate = main_gate.ElectricGate()\n    assert gate.open_gate_remote() == \"Gate remains closed\"\ndef test_auto_lock_after_closing():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    gate.open_gate_remote()\n    gate.close_gate_remote()\n    assert gate.is_locked is True\ndef test_unauthorized_access():",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_auto_lock_after_closing",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_auto_lock_after_closing():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    gate.open_gate_remote()\n    gate.close_gate_remote()\n    assert gate.is_locked is True\ndef test_unauthorized_access():\n    gate = main_gate.ElectricGate()\n    assert gate.open_gate_remote() == \"Gate remains closed\"\ndef test_obstacle_detection():",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_unauthorized_access",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_unauthorized_access():\n    gate = main_gate.ElectricGate()\n    assert gate.open_gate_remote() == \"Gate remains closed\"\ndef test_obstacle_detection():\n    gate = main_gate.ElectricGate()\n    assert gate.detect_obstacle() == \"Gate stops\"\ndef test_resume_after_obstacle_removed():\n    gate = main_gate.ElectricGate()\n    gate.detect_obstacle()\n    assert gate.remove_obstacle() == \"Gate resumes\"",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_obstacle_detection",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_obstacle_detection():\n    gate = main_gate.ElectricGate()\n    assert gate.detect_obstacle() == \"Gate stops\"\ndef test_resume_after_obstacle_removed():\n    gate = main_gate.ElectricGate()\n    gate.detect_obstacle()\n    assert gate.remove_obstacle() == \"Gate resumes\"\ndef test_gate_opens_fully():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_resume_after_obstacle_removed",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_resume_after_obstacle_removed():\n    gate = main_gate.ElectricGate()\n    gate.detect_obstacle()\n    assert gate.remove_obstacle() == \"Gate resumes\"\ndef test_gate_opens_fully():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    assert gate.open_gate_remote() == \"Gate opens\"\ndef test_gate_closes_fully():\n    gate = main_gate.ElectricGate()",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_gate_opens_fully",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_gate_opens_fully():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    assert gate.open_gate_remote() == \"Gate opens\"\ndef test_gate_closes_fully():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    gate.open_gate_remote()\n    assert gate.close_gate_remote() == \"Gate closes\"\ndef test_power_failure():",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_gate_closes_fully",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_gate_closes_fully():\n    gate = main_gate.ElectricGate()\n    gate.unlock_gate()\n    gate.open_gate_remote()\n    assert gate.close_gate_remote() == \"Gate closes\"\ndef test_power_failure():\n    gate = main_gate.ElectricGate()\n    assert gate.power_failure() == \"Gate remains closed\"",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "test_power_failure",
+        "kind": 2,
+        "importPath": "Project.test_main_gate",
+        "description": "Project.test_main_gate",
+        "peekOfCode": "def test_power_failure():\n    gate = main_gate.ElectricGate()\n    assert gate.power_failure() == \"Gate remains closed\"",
+        "detail": "Project.test_main_gate",
+        "documentation": {}
+    },
+    {
+        "label": "create_test_xml",
+        "kind": 2,
+        "importPath": "Project.test_medical_issues",
+        "description": "Project.test_medical_issues",
+        "peekOfCode": "def create_test_xml(tmp_path):\n    xml_content = \"\"\"\\\n<medical>\n    <issue>Diabetes</issue>\n    <issue>Asthma</issue>\n    <issue>Blood Pressure</issue>\n</medical>\n\"\"\"\n    file_path = tmp_path / \"note.xml\"\n    file_path.write_text(xml_content)",
+        "detail": "Project.test_medical_issues",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_medical_issues_valid_file",
+        "kind": 2,
+        "importPath": "Project.test_medical_issues",
+        "description": "Project.test_medical_issues",
+        "peekOfCode": "def test_get_medical_issues_valid_file(tmp_path):\n    xml_file = create_test_xml(tmp_path)\n    result = get_medical_issues(xml_file)\n    expected = [\"Asthma\", \"Blood Pressure\", \"Diabetes\"]\n    assert result == expected\ndef test_get_medical_issues_not_empty(tmp_path):\n    xml_file = create_test_xml(tmp_path)\n    result = get_medical_issues(xml_file)\n    assert len(result) > 0\ndef test_get_medical_issues_type(tmp_path):",
+        "detail": "Project.test_medical_issues",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_medical_issues_not_empty",
+        "kind": 2,
+        "importPath": "Project.test_medical_issues",
+        "description": "Project.test_medical_issues",
+        "peekOfCode": "def test_get_medical_issues_not_empty(tmp_path):\n    xml_file = create_test_xml(tmp_path)\n    result = get_medical_issues(xml_file)\n    assert len(result) > 0\ndef test_get_medical_issues_type(tmp_path):\n    xml_file = create_test_xml(tmp_path)\n    result = get_medical_issues(xml_file)\n    assert isinstance(result, list)",
+        "detail": "Project.test_medical_issues",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_medical_issues_type",
+        "kind": 2,
+        "importPath": "Project.test_medical_issues",
+        "description": "Project.test_medical_issues",
+        "peekOfCode": "def test_get_medical_issues_type(tmp_path):\n    xml_file = create_test_xml(tmp_path)\n    result = get_medical_issues(xml_file)\n    assert isinstance(result, list)",
+        "detail": "Project.test_medical_issues",
+        "documentation": {}
+    },
+    {
+        "label": "test_data_not_empty",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_data_not_empty():\n    assert not df.empty\n# -------------------------------------------------\n# Test 2: User-Item Matrix Creation\n# -------------------------------------------------\ndef test_user_item_matrix_exists():\n    assert user_item_matrix.shape[0] > 0\n    assert user_item_matrix.shape[1] > 0\n# -------------------------------------------------\n# Test 3: Collaborative Recommendation (Valid User)",
+        "detail": "Project.test_recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_user_item_matrix_exists",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_user_item_matrix_exists():\n    assert user_item_matrix.shape[0] > 0\n    assert user_item_matrix.shape[1] > 0\n# -------------------------------------------------\n# Test 3: Collaborative Recommendation (Valid User)\n# -------------------------------------------------\ndef test_recommend_products_valid_user():\n    result = recommend_products(1)\n    assert isinstance(result, pd.Series)\n    assert len(result) <= 3",
+        "detail": "Project.test_recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_recommend_products_valid_user",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_recommend_products_valid_user():\n    result = recommend_products(1)\n    assert isinstance(result, pd.Series)\n    assert len(result) <= 3\n# -------------------------------------------------\n# Test 4: Collaborative Recommendation (Invalid User)\n# -------------------------------------------------\ndef test_recommend_products_invalid_user():\n    result = recommend_products(999)\n    assert isinstance(result, str)",
+        "detail": "Project.test_recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_recommend_products_invalid_user",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_recommend_products_invalid_user():\n    result = recommend_products(999)\n    assert isinstance(result, str)\n# -------------------------------------------------\n# Test 5: Content-Based Recommendation\n# -------------------------------------------------\ndef test_content_based_recommendation():\n    result = recommend_similar_products(101)\n    assert isinstance(result, list)\n    assert len(result) > 0",
+        "detail": "Project.test_recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_content_based_recommendation",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_content_based_recommendation():\n    result = recommend_similar_products(101)\n    assert isinstance(result, list)\n    assert len(result) > 0\n# -------------------------------------------------\n# Test 6: Content-Based Recommendation (Invalid Product)\n# -------------------------------------------------\ndef test_content_based_invalid_product():\n    result = recommend_similar_products(9999)\n    assert result == []",
+        "detail": "Project.test_recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_content_based_invalid_product",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_content_based_invalid_product():\n    result = recommend_similar_products(9999)\n    assert result == []\n# -------------------------------------------------\n# Test 7: Hybrid Recommendation (Existing User)\n# -------------------------------------------------\ndef test_hybrid_existing_user():\n    result = hybrid_recommendation(3)\n    assert isinstance(result, list)\n# -------------------------------------------------",
+        "detail": "Project.test_recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_hybrid_existing_user",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_hybrid_existing_user():\n    result = hybrid_recommendation(3)\n    assert isinstance(result, list)\n# -------------------------------------------------\n# Test 8: Hybrid Recommendation (New User)\n# -------------------------------------------------\ndef test_hybrid_new_user():\n    result = hybrid_recommendation(999)\n    assert isinstance(result, str)",
+        "detail": "Project.test_recommendation_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_hybrid_new_user",
+        "kind": 2,
+        "importPath": "Project.test_recommendation_engine",
+        "description": "Project.test_recommendation_engine",
+        "peekOfCode": "def test_hybrid_new_user():\n    result = hybrid_recommendation(999)\n    assert isinstance(result, str)",
+        "detail": "Project.test_recommendation_engine",
         "documentation": {}
     },
     {
@@ -164,42 +834,6 @@
         "documentation": {}
     },
     {
-        "label": "num",
-        "kind": 5,
-        "importPath": "1",
-        "description": "1",
-        "peekOfCode": "num = int(input(\"Enter a number: \"))\nif num % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")",
-        "detail": "1",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "add two num",
-        "description": "add two num",
-        "peekOfCode": "a = 10 \nb = 20\nprint(\"sum = \", a + b)",
-        "detail": "add two num",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "add two num",
-        "description": "add two num",
-        "peekOfCode": "b = 20\nprint(\"sum = \", a + b)",
-        "detail": "add two num",
-        "documentation": {}
-    },
-    {
-        "label": "print(\"sum",
-        "kind": 5,
-        "importPath": "add two num",
-        "description": "add two num",
-        "peekOfCode": "print(\"sum = \", a + b)",
-        "detail": "add two num",
-        "documentation": {}
-    },
-    {
         "label": "builtin",
         "kind": 2,
         "importPath": "builtin",
@@ -251,24 +885,6 @@
         "description": "canimpl",
         "peekOfCode": "network = can.interface.Bus(bustype=\"bmw\", channel=\"jio\")\n'''opencv-python --> a car classifier file package that store the info inside the xml file -->\ncarcascade.xml\nhaarcascade.xml'''",
         "detail": "canimpl",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "larger number from 2 num",
-        "description": "larger number from 2 num",
-        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nif a > b:\n    print(\"a is larger\")\nelse:\n    print(\"b is larger\")",
-        "detail": "larger number from 2 num",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "larger number from 2 num",
-        "description": "larger number from 2 num",
-        "peekOfCode": "b = int(input(\"Enter second number: \"))\nif a > b:\n    print(\"a is larger\")\nelse:\n    print(\"b is larger\")",
-        "detail": "larger number from 2 num",
         "documentation": {}
     },
     {
